@@ -15,7 +15,6 @@ Auto-reply like a pro in Discord DMs & channels using **Google Gemini AI**
 - ⚙️ Easy setup & customizable
 
 ---
-
 ## ⚙️ Installation
 
 ```bash
@@ -23,31 +22,15 @@ git clone https://github.com/Ansh7473/discord-ai-automation-.git
 ```
 # Go to Directory 
 ```
-cd discord-ai-automation-
+cd discord
 ```
 # install the Dependency 
 ```
 pip install -r requirements.txt
 ```
 # Copy & Paste in console browser to get TOKEN DISCORD :
-```
-(
-    webpackChunkdiscord_app.push(
-        [
-            [''],
-            {},
-            e => {
-                m=[];
-                for(let c in e.c)
-                    m.push(e.c[c])
-            }
-        ]
-    ),
-    m
-).find(
-    m => m?.exports?.default?.getToken !== void 0
-).exports.default.getToken()
-```
+
+F12--APPLICATION-- LOCAL STORAGE--HTTP://DISCORD.COM-- SEARCH TOKEN IN FLTER
 
 # 📝 Usage
 
@@ -57,9 +40,14 @@ pip install -r requirements.txt
 nano .env
 ```
 
+```
+DISCORD_TOKEN=
+GOOGLE_API_KEYS=
+```
+
 2. Run the script.
 ```
-3. python bot.py
+python3 -m venv venv && source venv/bin/activate && python bot.py
 ```
 4. Watch the magic unfold in your DMs and channels.
 
